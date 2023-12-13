@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <script src="path/to/typewriter.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>AI French Poem Generator</title>
 </head>
 <body>
     <div class="container">
@@ -16,7 +18,7 @@
     </header>
 
     <main>
-        <div class="form-container">
+        
         <form id="poem-generator-form">
             <input type="text" 
             placeholder="Enter the topic of the French poem" 
@@ -25,8 +27,8 @@
               id="user-instructions" />
             <input type="submit" class="submit-button" />
         </form>
-        <div class="poem"></div>
-        </div>
+        <div class="poem" id="poem"></div>
+     
     </main>
 
 <footer>
